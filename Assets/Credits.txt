@@ -1,0 +1,52 @@
+Fonts/SF_Archery_Black.ttf
+Fonts/SF_Archery_Black_Oblique.ttf
+https://www.fontsquirrel.com/fonts/sf-archery-black
+
+Images/speaker.png
+https://www.flaticon.com/free-icon/speaker_149139
+
+Images/retrowave-wallpaper.jpg
+https://www.tokkoro.com/2611308-retrowave.html
+
+Music/422638__biggsmoove__the-secession-studios-aetrim1521656734527.mp3
+https://freesound.org/people/Biggsmoove/sounds/422638/
+
+Music/myuu - Lament, Pt. II.mp3
+https://soundcloud.com/myuu/lament-part-2
+
+Music/Silverfields-FULL.mp3
+https://www.hooksounds.com/royalty-free-music/silver-fields/1042834/
+
+Music/thetower edit1.mp3
+https://soundcloud.com/anthonyseeha/the-tower-hacking-from-nierautomata
+
+Realistic Glitches Lite/
+https://assetstore.unity.com/packages/vfx/shaders/fullscreen-camera-effects/realistic-glitches-lite-107974
+
+Resources/Images/vincent.jpg
+https://unsplash.com/photos/K2u71wv2eI4
+
+Resources/Music/myuu-Memento.mp3
+https://soundcloud.com/myuu/memento-visual-novel-music
+
+Resources/Sounds/snoring.mp3
+http://www.orangefreesounds.com/snoring-sound/
+
+Resources/Speech/*.ogg
+https://aws.amazon.com/polly/
+
+Sounds/button_69.wav
+https://assetstore.unity.com/packages/audio/sound-fx/gui-button-sfx-pack-22259
+
+Scripts/Lib/AWS/
+https://www.nuget.org/packages/AWSSDK.Core/
+https://www.nuget.org/packages/AWSSDK.Polly/
+
+Scripts/Lib/Cradle/
+https://github.com/mifozski/Cradle/tree/b9ae9ca5da2e6b127df6b101d146626e11ceeaaf
+
+Scripts/Lib/HtmlAgilityPack/
+https://www.nuget.org/packages/HtmlAgilityPack/
+
+Scripts/Lib/Typewriter Custom Styles
+https://assetstore.unity.com/packages/tools/gui/typewriter-custom-styles-88729

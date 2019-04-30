@@ -1,0 +1,3879 @@
+{
+    "console": [],
+    "result": {
+        "passages": [
+            {
+                "Name": "Prologue",
+                "Pid": "1",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "play-music: \"myuu-Memento\"",
+                        "name": "playmusic",
+                        "text": "(play-music: \"myuu-Memento\")",
+                        "tokens": [
+                            {
+                                "text": "play-music:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "myuu-Memento",
+                                "text": "\"myuu-Memento\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I hate my life.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"vincent\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"vincent\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "vincent",
+                                "text": "\"vincent\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I am 21 years old. My name is Vincent...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "and this is my story.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I grew up in a big city in Italy.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I enjoyed the easy life, not caring about school. Not caring about friends, or anything.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Heeehhh.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I soon had to make a choice.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "After secondary school",
+                        "passage": "PrologueUniversity",
+                        "text": "[[After secondary school|PrologueUniversity]]",
+                        "tokens": [
+                            {
+                                "text": "After secondary school",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "PrologueUniversity",
+                "Pid": "2",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "if: $thoughts_taught is 0",
+                        "name": "if",
+                        "text": "(if: $thoughts_taught is 0)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "thoughts_taught",
+                                "text": "$thoughts_taught",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "is",
+                                "type": "is"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "0",
+                                "type": "number"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "(show-text: \"You influenced Vincent's thoughts.\")(set: $thoughts_taught to 1)",
+                        "text": "[(show-text: \"You influenced Vincent's thoughts.\")(set: $thoughts_taught to 1)]",
+                        "tokens": [
+                            {
+                                "innerText": "show-text: \"You influenced Vincent's thoughts.\"",
+                                "name": "showtext",
+                                "text": "(show-text: \"You influenced Vincent's thoughts.\")",
+                                "tokens": [
+                                    {
+                                        "text": "show-text:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "innerText": "You influenced Vincent's thoughts.",
+                                        "text": "\"You influenced Vincent's thoughts.\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "innerText": "set: $thoughts_taught to 1",
+                                "name": "set",
+                                "text": "(set: $thoughts_taught to 1)",
+                                "tokens": [
+                                    {
+                                        "text": "set:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "name": "thoughts_taught",
+                                        "text": "$thoughts_taught",
+                                        "type": "variable"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "to",
+                                        "type": "to"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "1",
+                                        "type": "number",
+                                        "value": 1
+                                    }
+                                ],
+                                "type": "macro"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "After I finished secondary school,",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I had to decide what I was going to do with my life.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "University.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "I was afraid",
+                        "passage": "PrologueUniversity2",
+                        "text": "[[I was afraid|PrologueUniversity2]]",
+                        "tokens": [
+                            {
+                                "text": "I was afraid",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "My childhood dream",
+                        "passage": "PrologueHobbies",
+                        "text": "[[My childhood dream|PrologueHobbies]]",
+                        "tokens": [
+                            {
+                                "text": "My childhood dream",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "PrologueUniversity2",
+                "Pid": "3",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "set-d-m: \"Afraid\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Afraid\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Afraid",
+                                "text": "\"Afraid\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "if: $stats_taught is 0",
+                        "name": "if",
+                        "text": "(if: $stats_taught is 0)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "stats_taught",
+                                "text": "$stats_taught",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "is",
+                                "type": "is"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "0",
+                                "type": "number"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "(show-text: \"You influenced Vincent's mood.\")(set: $stats_taught to 1)",
+                        "text": "[(show-text: \"You influenced Vincent's mood.\")(set: $stats_taught to 1)]",
+                        "tokens": [
+                            {
+                                "innerText": "show-text: \"You influenced Vincent's mood.\"",
+                                "name": "showtext",
+                                "text": "(show-text: \"You influenced Vincent's mood.\")",
+                                "tokens": [
+                                    {
+                                        "text": "show-text:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "innerText": "You influenced Vincent's mood.",
+                                        "text": "\"You influenced Vincent's mood.\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "innerText": "set: $stats_taught to 1",
+                                "name": "set",
+                                "text": "(set: $stats_taught to 1)",
+                                "tokens": [
+                                    {
+                                        "text": "set:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "name": "stats_taught",
+                                        "text": "$stats_taught",
+                                        "type": "variable"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "to",
+                                        "type": "to"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "1",
+                                        "type": "number",
+                                        "value": 1
+                                    }
+                                ],
+                                "type": "macro"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I was afraid.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "My life was going down. Everyone else knew what they wanted to do, everyone",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "but me.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "So I picked",
+                        "passage": "PrologueUniChoice",
+                        "text": "[[So I picked|PrologueUniChoice]]",
+                        "tokens": [
+                            {
+                                "text": "So I picked",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "PrologueHobbies",
+                "Pid": "4",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "set-d-m: \"Nostalgic\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Nostalgic\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Nostalgic",
+                                "text": "\"Nostalgic\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "if: $stats_taught is 0",
+                        "name": "if",
+                        "text": "(if: $stats_taught is 0)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "stats_taught",
+                                "text": "$stats_taught",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "is",
+                                "type": "is"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "0",
+                                "type": "number"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "(show-text: \"You influenced Vincent's mood.\")(set: $stats_taught to 1)",
+                        "text": "[(show-text: \"You influenced Vincent's mood.\")(set: $stats_taught to 1)]",
+                        "tokens": [
+                            {
+                                "innerText": "show-text: \"You influenced Vincent's mood.\"",
+                                "name": "showtext",
+                                "text": "(show-text: \"You influenced Vincent's mood.\")",
+                                "tokens": [
+                                    {
+                                        "text": "show-text:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "innerText": "You influenced Vincent's mood.",
+                                        "text": "\"You influenced Vincent's mood.\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "innerText": "set: $stats_taught to 1",
+                                "name": "set",
+                                "text": "(set: $stats_taught to 1)",
+                                "tokens": [
+                                    {
+                                        "text": "set:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "name": "stats_taught",
+                                        "text": "$stats_taught",
+                                        "type": "variable"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "to",
+                                        "type": "to"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "1",
+                                        "type": "number",
+                                        "value": 1
+                                    }
+                                ],
+                                "type": "macro"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "My childhood dream has always been to become a rock star.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I was dreaming I'd be famous...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "and...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "well, that doesn't matter. I could never be famous.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I'm not talented.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I was scared about University.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "So I picked",
+                        "passage": "PrologueUniChoice",
+                        "text": "[[So I picked|PrologueUniChoice]]",
+                        "tokens": [
+                            {
+                                "text": "So I picked",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "PrologueUniChoice",
+                "Pid": "5",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "So I picked Computer Science!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I enjoyed video games, a lot. I'd play hours and hours, day and night.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "And I did some programming in school.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I thought that was it. I was going to be a programmer.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "Well",
+                        "passage": "ProloguePunchline",
+                        "text": "[[Well|ProloguePunchline]]",
+                        "tokens": [
+                            {
+                                "text": "Well",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "ProloguePunchline",
+                "Pid": "6",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "set-d-m: \"Angry\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Angry\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Angry",
+                                "text": "\"Angry\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "if: $stats_taught is 0",
+                        "name": "if",
+                        "text": "(if: $stats_taught is 0)",
+                        "tokens": [
+                            {
+                                "text": "if:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "stats_taught",
+                                "text": "$stats_taught",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "is",
+                                "type": "is"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "0",
+                                "type": "number"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "innerText": "(show-text: \"You influenced Vincent's mood.\")(set: $stats_taught to 1)",
+                        "text": "[(show-text: \"You influenced Vincent's mood.\")(set: $stats_taught to 1)]",
+                        "tokens": [
+                            {
+                                "innerText": "show-text: \"You influenced Vincent's mood.\"",
+                                "name": "showtext",
+                                "text": "(show-text: \"You influenced Vincent's mood.\")",
+                                "tokens": [
+                                    {
+                                        "text": "show-text:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "innerText": "You influenced Vincent's mood.",
+                                        "text": "\"You influenced Vincent's mood.\"",
+                                        "type": "string"
+                                    }
+                                ],
+                                "type": "macro"
+                            },
+                            {
+                                "innerText": "set: $stats_taught to 1",
+                                "name": "set",
+                                "text": "(set: $stats_taught to 1)",
+                                "tokens": [
+                                    {
+                                        "text": "set:",
+                                        "type": "macroName"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "name": "stats_taught",
+                                        "text": "$stats_taught",
+                                        "type": "variable"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "to",
+                                        "type": "to"
+                                    },
+                                    {
+                                        "text": " ",
+                                        "type": "whitespace"
+                                    },
+                                    {
+                                        "text": "1",
+                                        "type": "number",
+                                        "value": 1
+                                    }
+                                ],
+                                "type": "macro"
+                            }
+                        ],
+                        "type": "hook"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I quit. I couldn't stand it.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I'm not good at programming.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Not good at anything.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I'm poor, 'have no money.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "What am I going to do?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "No one cares about me",
+                        "passage": "ProloguePlNeg",
+                        "text": "[[No one cares about me|ProloguePlNeg]]",
+                        "tokens": [
+                            {
+                                "text": "No one cares about me",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "Maybe there is hope",
+                        "passage": "ProloguePlPos",
+                        "text": "[[Maybe there is hope|ProloguePlPos]]",
+                        "tokens": [
+                            {
+                                "text": "Maybe there is hope",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "What if I do get a job",
+                        "passage": "ProloguePlPos",
+                        "text": "[[What if I do get a job|ProloguePlPos]]",
+                        "tokens": [
+                            {
+                                "text": "What if I do get a job",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "ProloguePlNeg",
+                "Pid": "7",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "No one...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "It hurts.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-d-m: \"Very Sad\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Very Sad\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Very Sad",
+                                "text": "\"Very Sad\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I'll just go to sleep.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "zzz",
+                        "passage": "WakeUp_Neg_D1",
+                        "text": "[[zzz|WakeUp_Neg_D1]]",
+                        "tokens": [
+                            {
+                                "text": "zzz",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "ProloguePlPos",
+                "Pid": "8",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Yeah... maybe...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I could get a job. I shouldn't lose hope.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-d-m: \"Hopeful\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Hopeful\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Hopeful",
+                                "text": "\"Hopeful\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I'll go to sleep now.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "zzz",
+                        "passage": "WakeUp_Neg_D1",
+                        "text": "[[zzz|WakeUp_Neg_D1]]",
+                        "tokens": [
+                            {
+                                "text": "zzz",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "WakeUp_D1",
+                "Pid": "9",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "stop-music:",
+                        "name": "stopmusic",
+                        "text": "(stop-music:)",
+                        "tokens": [
+                            {
+                                "text": "stop-music:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"snoring\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"snoring\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "snoring",
+                                "text": "\"snoring\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "elves-exe-show-job-advert:",
+                        "name": "elvesexeshowjobadvert",
+                        "text": "(elves-exe-show-job-advert:)",
+                        "tokens": [
+                            {
+                                "text": "elves-exe-show-job-advert:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "protagonist-wake-up:",
+                        "name": "protagonistwakeup",
+                        "text": "(protagonist-wake-up:)",
+                        "tokens": [
+                            {
+                                "text": "protagonist-wake-up:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "stop-sound:",
+                        "name": "stopsound",
+                        "text": "(stop-sound:)",
+                        "tokens": [
+                            {
+                                "text": "stop-sound:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Oh... whoah. Hmm.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "What is this?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Oh, I can't believe this!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "It's perfect...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I have finally found the meaning of life.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $ending_1_completed to 1",
+                        "name": "set",
+                        "text": "(set: $ending_1_completed to 1)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "ending_1_completed",
+                                "text": "$ending_1_completed",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "1",
+                                "type": "number",
+                                "value": 1
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $ending_2_completed to 0",
+                        "name": "set",
+                        "text": "(set: $ending_2_completed to 0)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "ending_2_completed",
+                                "text": "$ending_2_completed",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "0",
+                                "type": "number"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $ending_3_completed to 0",
+                        "name": "set",
+                        "text": "(set: $ending_3_completed to 0)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "ending_3_completed",
+                                "text": "$ending_3_completed",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "0",
+                                "type": "number"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-game-over: \"Vincent has found the meaning of life. Congrats!\"",
+                        "name": "showgameover",
+                        "text": "(show-game-over: \"Vincent has found the meaning of life. Congrats!\")",
+                        "tokens": [
+                            {
+                                "text": "show-game-over:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Vincent has found the meaning of life. Congrats!",
+                                "text": "\"Vincent has found the meaning of life. Congrats!\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "l1",
+                        "passage": "l1",
+                        "text": "[[l1|l1]]",
+                        "tokens": [
+                            {
+                                "text": "l",
+                                "type": "text"
+                            },
+                            {
+                                "text": "1",
+                                "type": "number",
+                                "value": 1
+                            }
+                        ],
+                        "type": "twineLink"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "l2",
+                        "passage": "l2",
+                        "text": "[[l2|l2]]",
+                        "tokens": [
+                            {
+                                "text": "l",
+                                "type": "text"
+                            },
+                            {
+                                "text": "2",
+                                "type": "number",
+                                "value": 2
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "WakeUp_Neg_D1",
+                "Pid": "10",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "stop-music:",
+                        "name": "stopmusic",
+                        "text": "(stop-music:)",
+                        "tokens": [
+                            {
+                                "text": "stop-music:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"snoring\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"snoring\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "snoring",
+                                "text": "\"snoring\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"bed\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"bed\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "bed",
+                                "text": "\"bed\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 2.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.5",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"coffee-machine\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"coffee-machine\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "coffee-machine",
+                                "text": "\"coffee-machine\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"coffee-machine\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"coffee-machine\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "coffee-machine",
+                                "text": "\"coffee-machine\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 2.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"coffee-drinking\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"coffee-drinking\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "coffee-drinking",
+                                "text": "\"coffee-drinking\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "stop-sound:",
+                        "name": "stopsound",
+                        "text": "(stop-sound:)",
+                        "tokens": [
+                            {
+                                "text": "stop-sound:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"sunrise\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"sunrise\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "sunrise",
+                                "text": "\"sunrise\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Huh. What a night.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-s-h: \"Tired\"",
+                        "name": "setsh",
+                        "text": "(set-s-h: \"Tired\")",
+                        "tokens": [
+                            {
+                                "text": "set-s-h:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Tired",
+                                "text": "\"Tired\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "What to do today...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Oh there's this new game, Rocket League",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Yeah, let's have some fun",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"rocket-league\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"rocket-league\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "rocket-league",
+                                "text": "\"rocket-league\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"rocket-league-gameplay\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"rocket-league-gameplay\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "rocket-league-gameplay",
+                                "text": "\"rocket-league-gameplay\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 3.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "stop-sound:",
+                        "name": "stopsound",
+                        "text": "(stop-sound:)",
+                        "tokens": [
+                            {
+                                "text": "stop-sound:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Ah, darn it! I lost again.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Stupid game, who made it...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"mcd-food\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"mcd-food\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "mcd-food",
+                                "text": "\"mcd-food\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Lunch time. MMmmm.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"eating\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"eating\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "eating",
+                                "text": "\"eating\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "stop-sound:",
+                        "name": "stopsound",
+                        "text": "(stop-sound:)",
+                        "tokens": [
+                            {
+                                "text": "stop-sound:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Rocket League... maybe I can hack it!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-d-m: \"Excited\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Excited\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Excited",
+                                "text": "\"Excited\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"google\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"google\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "google",
+                                "text": "\"google\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"typing\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"typing\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "typing",
+                                "text": "\"typing\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 2.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"hack-tool\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"hack-tool\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "hack-tool",
+                                "text": "\"hack-tool\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "stop-sound:",
+                        "name": "stopsound",
+                        "text": "(stop-sound:)",
+                        "tokens": [
+                            {
+                                "text": "stop-sound:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Yeah, this could work",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"rocket-league\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"rocket-league\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "rocket-league",
+                                "text": "\"rocket-league\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"rocket-league-gameplay\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"rocket-league-gameplay\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "rocket-league-gameplay",
+                                "text": "\"rocket-league-gameplay\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 2.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "stop-sound:",
+                        "name": "stopsound",
+                        "text": "(stop-sound:)",
+                        "tokens": [
+                            {
+                                "text": "stop-sound:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-d-m: \"Aggressive\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Aggressive\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Aggressive",
+                                "text": "\"Aggressive\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Woho, bite the dust, losers!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Hacking this was fun. If only programming was this fun. Maybe I wouldn't have dropped out",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-d-m: \"Sad\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Sad\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Sad",
+                                "text": "\"Sad\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Back to the real life...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I spent another day. Playing. Oh, it's the 25th. My rent is due soon.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "What am I gonna do. What am I gonna do. What am I gonna do. What am I gonna do",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "I am gonna die",
+                        "passage": "Die1",
+                        "text": "[[I am gonna die|Die1]]",
+                        "tokens": [
+                            {
+                                "text": "I am gonna die",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "I think it is going to be okay",
+                        "passage": "OkFindGDD",
+                        "text": "[[I think it is going to be okay|OkFindGDD]]",
+                        "tokens": [
+                            {
+                                "text": "I think it is going to be okay",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "Die1",
+                "Pid": "11",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "set-d-m: \"Depressive\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Depressive\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Depressive",
+                                "text": "\"Depressive\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-music: \"myuu-Memento\"",
+                        "name": "playmusic",
+                        "text": "(play-music: \"myuu-Memento\")",
+                        "tokens": [
+                            {
+                                "text": "play-music:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "myuu-Memento",
+                                "text": "\"myuu-Memento\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "No...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Yes...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "No...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I have to.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-s-h: \"Bleeding\"",
+                        "name": "setsh",
+                        "text": "(set-s-h: \"Bleeding\")",
+                        "tokens": [
+                            {
+                                "text": "set-s-h:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Bleeding",
+                                "text": "\"Bleeding\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"crying\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"crying\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "crying",
+                                "text": "\"crying\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"death\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"death\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "death",
+                                "text": "\"death\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $ending_3_completed to 1",
+                        "name": "set",
+                        "text": "(set: $ending_3_completed to 1)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "ending_3_completed",
+                                "text": "$ending_3_completed",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "1",
+                                "type": "number",
+                                "value": 1
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-game-over: \"Vincent could not stand it anymore and decided it is just easier to quit life.\"",
+                        "name": "showgameover",
+                        "text": "(show-game-over: \"Vincent could not stand it anymore and decided it is just easier to quit life.\")",
+                        "tokens": [
+                            {
+                                "text": "show-game-over:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Vincent could not stand it anymore and decided it is just easier to quit life.",
+                                "text": "\"Vincent could not stand it anymore and decided it is just easier to quit life.\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "OkFindGDD",
+                "Pid": "12",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "play-music: \"myuu-Memento\"",
+                        "name": "playmusic",
+                        "text": "(play-music: \"myuu-Memento\")",
+                        "tokens": [
+                            {
+                                "text": "play-music:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "myuu-Memento",
+                                "text": "\"myuu-Memento\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "It is ok. I am ok. I can find a way. Really",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I am alone. But. I do not need anyone. I can live another day.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Come on, Vincent!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-d-m: \"Calm\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Calm\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Calm",
+                                "text": "\"Calm\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Maybe the night will fix my bugs.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "zZzZzZ",
+                        "passage": "GDDNight",
+                        "text": "[[zZzZzZ|GDDNight]]",
+                        "tokens": [
+                            {
+                                "text": "zZzZzZ",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "twineLink"
+                    }
+                ]
+            },
+            {
+                "Name": "GDDNight",
+                "Pid": "13",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "innerText": "stop-music:",
+                        "name": "stopmusic",
+                        "text": "(stop-music:)",
+                        "tokens": [
+                            {
+                                "text": "stop-music:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"snoring\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"snoring\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "snoring",
+                                "text": "\"snoring\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"night\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"night\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "night",
+                                "text": "\"night\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "stop-sound:",
+                        "name": "stopsound",
+                        "text": "(stop-sound:)",
+                        "tokens": [
+                            {
+                                "text": "stop-sound:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"elves\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"elves\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "elves",
+                                "text": "\"elves\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"elves\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"elves\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "elves",
+                                "text": "\"elves\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-text: \"elves.exe in progress...\"",
+                        "name": "showtext",
+                        "text": "(show-text: \"elves.exe in progress...\")",
+                        "tokens": [
+                            {
+                                "text": "show-text:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "elves.exe in progress...",
+                                "text": "\"elves.exe in progress...\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"unity\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"unity\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "unity",
+                                "text": "\"unity\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"vstudio\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"vstudio\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "vstudio",
+                                "text": "\"vstudio\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 3.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"coffee-machine\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"coffee-machine\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "coffee-machine",
+                                "text": "\"coffee-machine\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"coffee-machine\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"coffee-machine\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "coffee-machine",
+                                "text": "\"coffee-machine\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 2.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"coffee-drinking\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"coffee-drinking\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "coffee-drinking",
+                                "text": "\"coffee-drinking\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "stop-sound:",
+                        "name": "stopsound",
+                        "text": "(stop-sound:)",
+                        "tokens": [
+                            {
+                                "text": "stop-sound:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"sunrise\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"sunrise\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "sunrise",
+                                "text": "\"sunrise\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Hey. This night was better!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-s-h: \"Rested\"",
+                        "name": "setsh",
+                        "text": "(set-s-h: \"Rested\")",
+                        "tokens": [
+                            {
+                                "text": "set-s-h:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Rested",
+                                "text": "\"Rested\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Let's open the computer...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "What the",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-d-m: \"Surprised\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Surprised\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Surprised",
+                                "text": "\"Surprised\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"unity\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"unity\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "unity",
+                                "text": "\"unity\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Wha. Uni-tee? Unity? What is this",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"keyboard\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"keyboard\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "keyboard",
+                                "text": "\"keyboard\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"google\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"google\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "google",
+                                "text": "\"google\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "stop-music:",
+                        "name": "stopmusic",
+                        "text": "(stop-music:)",
+                        "tokens": [
+                            {
+                                "text": "stop-music:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "delay 1.0",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Oh, I see. Game development platform... like what I used yesterday! Kind of",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Maybe I can create games. Yeah, yeah. Good idea",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set-d-m: \"Motivated\"",
+                        "name": "setdm",
+                        "text": "(set-d-m: \"Motivated\")",
+                        "tokens": [
+                            {
+                                "text": "set-d-m:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Motivated",
+                                "text": "\"Motivated\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-image: \"inception\"",
+                        "name": "showimage",
+                        "text": "(show-image: \"inception\")",
+                        "tokens": [
+                            {
+                                "text": "show-image:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "inception",
+                                "text": "\"inception\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Oh I know! I'll make a game about a musician. Yes, a rock player",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "He was in a band, but quit because he was fighting with his mates",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "And when he was little he wanted to be a programmer",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "hide-image:",
+                        "name": "hideimage",
+                        "text": "(hide-image:)",
+                        "tokens": [
+                            {
+                                "text": "hide-image:",
+                                "type": "macroName"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I'll be a game programmer. A... no, a game designer!",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "I wonder what that elves.exe program was... and why did it help me?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "set: $ending_1_completed to 1",
+                        "name": "set",
+                        "text": "(set: $ending_1_completed to 1)",
+                        "tokens": [
+                            {
+                                "text": "set:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "name": "ending_1_completed",
+                                "text": "$ending_1_completed",
+                                "type": "variable"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "to",
+                                "type": "to"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "text": "1",
+                                "type": "number",
+                                "value": 1
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "show-game-over: \"Vincent found out he actually likes programming, just a bit differently. Those games were, after all, good for him.\"",
+                        "name": "showgameover",
+                        "text": "(show-game-over: \"Vincent found out he actually likes programming, just a bit differently. Those games were, after all, good for him.\")",
+                        "tokens": [
+                            {
+                                "text": "show-game-over:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "Vincent found out he actually likes programming, just a bit differently. Those games were, after all, good for him.",
+                                "text": "\"Vincent found out he actually likes programming, just a bit differently. Those games were, after all, good for him.\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "play-sound: \"happy-end\"",
+                        "name": "playsound",
+                        "text": "(play-sound: \"happy-end\")",
+                        "tokens": [
+                            {
+                                "text": "play-sound:",
+                                "type": "macroName"
+                            },
+                            {
+                                "text": " ",
+                                "type": "whitespace"
+                            },
+                            {
+                                "innerText": "happy-end",
+                                "text": "\"happy-end\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "l1",
+                "Pid": "14",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Double-click this passage to edit it.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "l2",
+                "Pid": "15",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Double-click this passage to edit it.",
+                        "type": "text"
+                    }
+                ]
+            }
+        ],
+        "startPid": "1"
+    }
+}
